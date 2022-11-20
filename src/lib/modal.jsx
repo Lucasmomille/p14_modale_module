@@ -1,4 +1,4 @@
-export const Modal = ({ setIsOpen, modalClass = '' }) => {
+const Modal = ({ setIsOpen, modalClass = '' }) => {
     return (
       <>
         <div id="confirmation" className="modal">
