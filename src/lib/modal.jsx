@@ -1,4 +1,3 @@
-
 const Modal = ({ setIsOpen, modalClass = '' }) => {
     return (
       <>

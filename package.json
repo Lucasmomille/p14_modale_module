@@ -14,8 +14,14 @@
     "eject": "react-scripts eject",
     "main": "dist/index.js",
     "module": "dist/index.js",
-    "files": ["dist", "README.md"],
-    "repository": {"type": "git",    "url": "URL_OF_YOUR_REPOSITORY"  }
+    "files": [
+      "dist",
+      "README.md"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "URL_OF_YOUR_REPOSITORY"
+    }
   },
   "eslintConfig": {
     "extends": [
@@ -36,7 +42,8 @@
     ]
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/cli": "^7.17.6",
+    "@babel/preset-react": "^7.16.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
