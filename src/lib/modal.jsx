@@ -1,3 +1,4 @@
+import "./index.css"
 const Modal = ({ setIsOpen, modalClass = '' }) => {
     return (
       <>
