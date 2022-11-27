@@ -14,4 +14,5 @@ const Modal = ({ setIsOpen, modalClass = '' }) => {
         </div>
       </>
     );
-  };
+};
+export default Modal
