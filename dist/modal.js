@@ -1,3 +1,5 @@
+import React from "react";
+import "./index.css";
 const Modal = ({
   setIsOpen,
   modalClass = ''
@@ -23,3 +25,4 @@ const Modal = ({
     d: "M6 18L18 6M6 6l12 12"
   }))))));
 };
+export default Modal;
