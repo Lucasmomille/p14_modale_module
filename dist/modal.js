@@ -6,9 +6,9 @@ const Modal = ({
 }) => {
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
     id: "confirmation",
-    className: "modal"
+    className: `modal ${modalClass}`
   }, /*#__PURE__*/React.createElement("div", {
-    className: `modal__text ${modalClass}`
+    className: "modal__text"
   }, "Employee Created!", /*#__PURE__*/React.createElement("span", {
     className: "modal__close",
     onClick: () => setIsOpen(false)
